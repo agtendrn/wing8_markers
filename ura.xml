@@ -4,7 +4,7 @@
             <MarkerCategory name="toxic" DisplayName="Toxic Geyser Locations" mapvisibility="0">
                 <MarkerCategory name="ground" DisplayName="Ground" color="#00ffcc"
                                 iconFile="assets/general/dot.png" alpha="0.75" minimapvisibility="0" heightoffset="0"
-                                iconSize="0.75" rotate="0" canfade="0"/>
+                                iconSize="0.75" rotate="0"/>
                 <MarkerCategory name="number" DisplayName="Number" color="#4473F5"
                                 alpha="0.75" heightoffset="1.5" iconSize="1.5" defaulttoggle="0">
                     <MarkerCategory name="1" DisplayName="1" iconFile="assets/numbers/1.png"/>
@@ -23,7 +23,7 @@
                     <MarkerCategory name="14" DisplayName="14" iconFile="assets/numbers/14.png"/>
                 </MarkerCategory>
                 <MarkerCategory name="marker" DisplayName="Marker" alpha="0.75"
-                                heightoffset="3.5" iconSize="1" minimapvisibility="1" defaulttoggle="0" canfade="0">
+                                heightoffset="3.5" iconSize="1" minimapvisibility="1" defaulttoggle="0">
                     <MarkerCategory name="arrow" DisplayName="arrow" iconFile="assets/markers/arrow.png"/>
                     <MarkerCategory name="circle" DisplayName="circle" iconFile="assets/markers/circle.png"/>
                     <MarkerCategory name="heart" DisplayName="heart" iconFile="assets/markers/heart.png"/>
@@ -37,8 +37,8 @@
 
             <MarkerCategory name="titan" DisplayName="Titan Spawner Locations" mapvisibility="0">
                 <MarkerCategory name="ground" DisplayName="Titan Spawner"
-                                iconFile="assets/skull/orange.png" alpha="0.75" heightoffset="0"
-                                iconSize="1" rotate="0" canfade="0"/>
+                                iconFile="assets/skull/orange.png" alpha="0.6" heightoffset="0"
+                                iconSize="1" rotate="0"/>
                 <MarkerCategory name="hb" DisplayName="Hitbox" color="#ad6a2c"
                                 iconFile="assets/radius/256.png" minimapvisibility="0" heightoffset="0"
                                 iconSize="5.2" rotate="0" defaulttoggle="0"/>
