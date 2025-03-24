@@ -15,8 +15,8 @@
                 <MarkerCategory name="titan_ground" DisplayName="Titan Spawner Location (Ground)" color="#FF00FF"
                                 iconFile="assets/general/dot.png" alpha="0.75" minimapvisibility="0" heightoffset="0"
                                 iconSize="1" rotate="0" canfade="0"/>
-                <MarkerCategory name="titan_radius" DisplayName="Titan Spawner Location (Radius)"
-                                iconFile="assets/radius/640.png" alpha="0.6" minimapvisibility="0" heightoffset="0"
+                <MarkerCategory name="titan_radius" DisplayName="Titan Spawner Location (Radius)" color="#FF00FF"
+                                iconFile="assets/radius/256.png" alpha="0.6" minimapvisibility="0" heightoffset="0"
                                 iconSize="2.6" rotate="0" defaulttoggle="0"/>
                 <MarkerCategory name="titan_float" DisplayName="Titan Spawner Location (Floating)"
                                 iconFile="assets/general/arrowg.png" alpha="0.75" heightoffset="5" iconSize="1"
