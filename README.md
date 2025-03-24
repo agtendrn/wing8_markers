@@ -22,7 +22,7 @@ ___
 
 ## Installation
 
-Download the [Latest Release](https://github.com/agtendrn/wing8_markers/release/latest)
+Download the [Latest Release](https://github.com/agtendrn/wing8_markers/releases/latest)
 
 Install [Blish HUD](https://blishhud.com/) and the [Pathing](https://blishhud.com/modules/?module=bh.community.pathing)
 Module
@@ -30,4 +30,4 @@ Module
 Move the Markerpack file into the Blish HUD marker directory
 
 in Windows commonly under
-`.\Documents\Guild Wars 2\addons\blishhud\markers` 
+`.\Documents\Guild Wars 2\addons\blishhud\markers`
