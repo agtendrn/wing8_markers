@@ -2,134 +2,158 @@
     <MarkerCategory name="wing8" DisplayName="Wing 8" MapID="1564" fadeNear="5000" fadeFar="5500">
         <MarkerCategory name="ura" DisplayName="Ura">
             <MarkerCategory name="toxic" DisplayName="Toxic Geyser Locations" mapvisibility="0">
-                <MarkerCategory name="toxic_ground" DisplayName="Toxic Geyser Location (Ground)" color="#00ffcc"
+                <MarkerCategory name="ground" DisplayName="Ground" color="#00ffcc"
                                 iconFile="assets/general/dot.png" alpha="0.75" minimapvisibility="0" heightoffset="0"
                                 iconSize="0.75" rotate="0" canfade="0"/>
-                <MarkerCategory name="toxic_number" DisplayName="Toxic Geyser Location (Number)" color="#4473F5"
-                                alpha="0.75" heightoffset="1.5" iconSize="1.5" minimapvisibility="1" defaulttoggle="0"/>
-                <MarkerCategory name="toxic_marker" DisplayName="Toxic Geyser Location (Marker)" alpha="0.75"
-                                heightoffset="3.5" iconSize="1" minimapvisibility="1" defaulttoggle="0" canfade="0"/>
+                <MarkerCategory name="number" DisplayName="Number" color="#4473F5"
+                                alpha="0.75" heightoffset="1.5" iconSize="1.5" defaulttoggle="0">
+                    <MarkerCategory name="1" DisplayName="1" iconFile="assets/numbers/1.png"/>
+                    <MarkerCategory name="2" DisplayName="2" iconFile="assets/numbers/2.png"/>
+                    <MarkerCategory name="3" DisplayName="3" iconFile="assets/numbers/3.png"/>
+                    <MarkerCategory name="4" DisplayName="4" iconFile="assets/numbers/4.png"/>
+                    <MarkerCategory name="5" DisplayName="5" iconFile="assets/numbers/5.png"/>
+                    <MarkerCategory name="6" DisplayName="6" iconFile="assets/numbers/6.png"/>
+                    <MarkerCategory name="7" DisplayName="7" iconFile="assets/numbers/7.png"/>
+                    <MarkerCategory name="8" DisplayName="8" iconFile="assets/numbers/8.png"/>
+                    <MarkerCategory name="9" DisplayName="9" iconFile="assets/numbers/9.png"/>
+                    <MarkerCategory name="10" DisplayName="10" iconFile="assets/numbers/10.png"/>
+                    <MarkerCategory name="11" DisplayName="11" iconFile="assets/numbers/11.png"/>
+                    <MarkerCategory name="12" DisplayName="12" iconFile="assets/numbers/12.png"/>
+                    <MarkerCategory name="13" DisplayName="13" iconFile="assets/numbers/13.png"/>
+                    <MarkerCategory name="14" DisplayName="14" iconFile="assets/numbers/14.png"/>
+                </MarkerCategory>
+                <MarkerCategory name="marker" DisplayName="Marker" alpha="0.75"
+                                heightoffset="3.5" iconSize="1" minimapvisibility="1" defaulttoggle="0" canfade="0">
+                    <MarkerCategory name="arrow" DisplayName="arrow" iconFile="assets/markers/arrow.png"/>
+                    <MarkerCategory name="circle" DisplayName="circle" iconFile="assets/markers/circle.png"/>
+                    <MarkerCategory name="heart" DisplayName="heart" iconFile="assets/markers/heart.png"/>
+                    <MarkerCategory name="square" DisplayName="square" iconFile="assets/markers/square.png"/>
+                    <MarkerCategory name="star" DisplayName="star" iconFile="assets/markers/star.png"/>
+                    <MarkerCategory name="swirl" DisplayName="swirl" iconFile="assets/markers/swirl.png"/>
+                    <MarkerCategory name="triangle" DisplayName="triangle" iconFile="assets/markers/triangle.png"/>
+                    <MarkerCategory name="x" DisplayName="x" iconFile="assets/markers/x.png"/>
+                </MarkerCategory>
             </MarkerCategory>
 
             <MarkerCategory name="titan" DisplayName="Titan Spawner Locations" mapvisibility="0">
-                <MarkerCategory name="titan_ground" DisplayName="Titan Spawner Location (Ground)" color="#FF00FF"
-                                iconFile="assets/general/dot.png" alpha="0.75" minimapvisibility="0" heightoffset="0"
+                <MarkerCategory name="ground" DisplayName="Titan Spawner"
+                                iconFile="assets/skull/orange.png" alpha="0.75" heightoffset="0"
                                 iconSize="1" rotate="0" canfade="0"/>
-                <MarkerCategory name="titan_radius" DisplayName="Titan Spawner Location (Radius)" color="#FF00FF"
-                                iconFile="assets/radius/256.png" alpha="0.6" minimapvisibility="0" heightoffset="0"
-                                iconSize="2.6" rotate="0" defaulttoggle="0"/>
-                <MarkerCategory name="titan_float" DisplayName="Titan Spawner Location (Floating)"
+                <MarkerCategory name="hb" DisplayName="Hitbox" color="#ad6a2c"
+                                iconFile="assets/radius/256.png" minimapvisibility="0" heightoffset="0"
+                                iconSize="5.2" rotate="0" defaulttoggle="0"/>
+                <MarkerCategory name="float" DisplayName="Arrow"
                                 iconFile="assets/general/arrowg.png" alpha="0.75" heightoffset="5" iconSize="1"
-                                minimapvisibility="1" defaulttoggle="0"/>
+                                defaulttoggle="0"/>
             </MarkerCategory>
         </MarkerCategory>
     </MarkerCategory>
 
     <POIs>
-        <POI type="wing8.ura.toxic.toxic_ground" xpos="196.73685880115875" ypos="269.77146838590704"
-             zpos="247.25108152347846" GUID="cZcoG8mrM0GKNFtOVP6myA=="/>
-        <POI type="wing8.ura.toxic.toxic_ground" xpos="181.63605845949718" ypos="269.91039936557183"
-             zpos="276.95383540586636" GUID="l7GKZRaoQ0yP16jWjt91bg=="/>
-        <POI type="wing8.ura.toxic.toxic_ground" xpos="193.8798688400271" ypos="269.8205072266136"
-             zpos="219.20594959753723" GUID="GlLhts++4kagqjD9TRohHA=="/>
-        <POI type="wing8.ura.toxic.toxic_ground" xpos="183.05794919558244" ypos="269.85610193395496"
-             zpos="235.22317102636265" GUID="uu516E4xakys2mWPIwc9NQ=="/>
-        <POI type="wing8.ura.toxic.toxic_ground" xpos="165.24571272044014" ypos="269.9165757294241"
-             zpos="253.15682638125125" GUID="Qp79YmFEJE+SwTIhjnai2A=="/>
-        <POI type="wing8.ura.toxic.toxic_ground" xpos="158.04024014655155" ypos="269.9379077491548"
-             zpos="280.9162332661715" GUID="jwEDDYslXkKQJjZIXnPDAg=="/>
-        <POI type="wing8.ura.toxic.toxic_ground" xpos="178.8479014690082" ypos="269.90486792324634"
-             zpos="202.33985020913713" GUID="+uN+AnsjdEyt3YWkAyCTeQ=="/>
-        <POI type="wing8.ura.toxic.toxic_ground" xpos="161.7189221444383" ypos="269.8876038700689"
-             zpos="228.76750654367146" GUID="+rvq6i+vSE2ElmBf6Zd+nA=="/>
-        <POI type="wing8.ura.toxic.toxic_ground" xpos="145.9615296768677" ypos="269.8476683447591"
-             zpos="259.3998900021844" GUID="qMIZHusTn0e+JsMrwjGHrw=="/>
-        <POI type="wing8.ura.toxic.toxic_ground" xpos="162.64195367725125" ypos="269.8476683447591"
-             zpos="200.3835427694494" GUID="EUsstDipAUSib1SMGZqubQ=="/>
-        <POI type="wing8.ura.toxic.toxic_ground" xpos="145.57773935677073" ypos="269.8476683447591"
-             zpos="228.93947734924473" GUID="c2WmLSF/Kkirv7Zgo4UmMg=="/>
-        <POI type="wing8.ura.toxic.toxic_ground" xpos="122.40583292428772" ypos="269.8476683447591"
-             zpos="249.62801422430982" GUID="3Uuc7QgIKUKne18diA8cTg=="/>
-        <POI type="wing8.ura.toxic.toxic_ground" xpos="136.7560686321917" ypos="269.8476683447591"
-             zpos="199.69342712648685" GUID="e4Sdv2oSYE2TuxIsQ9f23g=="/>
-        <POI type="wing8.ura.toxic.toxic_ground" xpos="109.50797289694464" ypos="269.8476683447591"
-             zpos="218.63139893123207" GUID="UTEbm2PGc02y00H++ffHTg=="/>
+        <POI type="wing8.ura.toxic.ground" xpos="196.7369" ypos="269.7715" zpos="247.2511"
+             GUID="cZcoG8mrM0GKNFtOVP6myA=="/>
+        <POI type="wing8.ura.toxic.ground" xpos="181.6361" ypos="269.9104" zpos="276.9538"
+             GUID="l7GKZRaoQ0yP16jWjt91bg=="/>
+        <POI type="wing8.ura.toxic.ground" xpos="193.8799" ypos="269.8205" zpos="219.2059"
+             GUID="GlLhts++4kagqjD9TRohHA=="/>
+        <POI type="wing8.ura.toxic.ground" xpos="183.0579" ypos="269.8561" zpos="235.2232"
+             GUID="uu516E4xakys2mWPIwc9NQ=="/>
+        <POI type="wing8.ura.toxic.ground" xpos="165.2457" ypos="269.9166" zpos="253.1568"
+             GUID="Qp79YmFEJE+SwTIhjnai2A=="/>
+        <POI type="wing8.ura.toxic.ground" xpos="158.0402" ypos="269.9379" zpos="280.9162"
+             GUID="jwEDDYslXkKQJjZIXnPDAg=="/>
+        <POI type="wing8.ura.toxic.ground" xpos="178.8479" ypos="269.9049" zpos="202.3399"
+             GUID="+uN+AnsjdEyt3YWkAyCTeQ=="/>
+        <POI type="wing8.ura.toxic.ground" xpos="161.7189" ypos="269.8876" zpos="228.7675"
+             GUID="+rvq6i+vSE2ElmBf6Zd+nA=="/>
+        <POI type="wing8.ura.toxic.ground" xpos="145.9615" ypos="269.8477" zpos="259.3999"
+             GUID="qMIZHusTn0e+JsMrwjGHrw=="/>
+        <POI type="wing8.ura.toxic.ground" xpos="162.6420" ypos="269.8477" zpos="200.3835"
+             GUID="EUsstDipAUSib1SMGZqubQ=="/>
+        <POI type="wing8.ura.toxic.ground" xpos="145.5777" ypos="269.8477" zpos="228.9395"
+             GUID="c2WmLSF/Kkirv7Zgo4UmMg=="/>
+        <POI type="wing8.ura.toxic.ground" xpos="122.4058" ypos="269.8477" zpos="249.6280"
+             GUID="3Uuc7QgIKUKne18diA8cTg=="/>
+        <POI type="wing8.ura.toxic.ground" xpos="136.7561" ypos="269.8477" zpos="199.6934"
+             GUID="e4Sdv2oSYE2TuxIsQ9f23g=="/>
+        <POI type="wing8.ura.toxic.ground" xpos="109.5080" ypos="269.8477" zpos="218.6314"
+             GUID="UTEbm2PGc02y00H++ffHTg=="/>
 
-        <POI type="wing8.ura.toxic.toxic_number" iconFile="assets/numbers/1.png" xpos="196.73685880115875"
-             ypos="269.77146838590704" zpos="247.25108152347846" GUID="cZcoG8mrM0GKNFtOVP6myA=="/>
-        <POI type="wing8.ura.toxic.toxic_number" iconFile="assets/numbers/2.png" xpos="181.63605845949718"
-             ypos="269.91039936557183" zpos="276.95383540586636" GUID="l7GKZRaoQ0yP16jWjt91bg=="/>
-        <POI type="wing8.ura.toxic.toxic_number" iconFile="assets/numbers/3.png" xpos="193.8798688400271"
-             ypos="269.8205072266136" zpos="219.20594959753723" GUID="GlLhts++4kagqjD9TRohHA=="/>
-        <POI type="wing8.ura.toxic.toxic_number" iconFile="assets/numbers/4.png" xpos="183.05794919558244"
-             ypos="269.85610193395496" zpos="235.22317102636265" GUID="uu516E4xakys2mWPIwc9NQ=="/>
-        <POI type="wing8.ura.toxic.toxic_number" iconFile="assets/numbers/5.png" xpos="165.24571272044014"
-             ypos="269.9165757294241" zpos="253.15682638125125" GUID="Qp79YmFEJE+SwTIhjnai2A=="/>
-        <POI type="wing8.ura.toxic.toxic_number" iconFile="assets/numbers/6.png" xpos="158.04024014655155"
-             ypos="269.9379077491548" zpos="280.9162332661715" GUID="jwEDDYslXkKQJjZIXnPDAg=="/>
-        <POI type="wing8.ura.toxic.toxic_number" iconFile="assets/numbers/7.png" xpos="178.8479014690082"
-             ypos="269.90486792324634" zpos="202.33985020913713" GUID="+uN+AnsjdEyt3YWkAyCTeQ=="/>
-        <POI type="wing8.ura.toxic.toxic_number" iconFile="assets/numbers/8.png" xpos="161.7189221444383"
-             ypos="269.8876038700689" zpos="228.76750654367146" GUID="+rvq6i+vSE2ElmBf6Zd+nA=="/>
-        <POI type="wing8.ura.toxic.toxic_number" iconFile="assets/numbers/9.png" xpos="145.9615296768677"
-             ypos="269.8476683447591" zpos="259.3998900021844" GUID="qMIZHusTn0e+JsMrwjGHrw=="/>
-        <POI type="wing8.ura.toxic.toxic_number" iconFile="assets/numbers/10.png" xpos="162.64195367725125"
-             ypos="269.8476683447591" zpos="200.3835427694494" GUID="EUsstDipAUSib1SMGZqubQ=="/>
-        <POI type="wing8.ura.toxic.toxic_number" iconFile="assets/numbers/11.png" xpos="145.57773935677073"
-             ypos="269.8476683447591" zpos="228.93947734924473" GUID="c2WmLSF/Kkirv7Zgo4UmMg=="/>
-        <POI type="wing8.ura.toxic.toxic_number" iconFile="assets/numbers/12.png" xpos="122.40583292428772"
-             ypos="269.8476683447591" zpos="249.62801422430982" GUID="3Uuc7QgIKUKne18diA8cTg=="/>
-        <POI type="wing8.ura.toxic.toxic_number" iconFile="assets/numbers/13.png" xpos="136.7560686321917"
-             ypos="269.8476683447591" zpos="199.69342712648685" GUID="e4Sdv2oSYE2TuxIsQ9f23g=="/>
-        <POI type="wing8.ura.toxic.toxic_number" iconFile="assets/numbers/14.png" xpos="109.50797289694464"
-             ypos="269.8476683447591" zpos="218.63139893123207" GUID="UTEbm2PGc02y00H++ffHTg=="/>
+        <POI type="wing8.ura.toxic.number.1" xpos="196.7369" ypos="269.7715" zpos="247.2511"
+             GUID="cZcoG8mrM0GKNFtOVP6myA=="/>
+        <POI type="wing8.ura.toxic.number.2" xpos="181.6361" ypos="269.9104" zpos="276.9538"
+             GUID="l7GKZRaoQ0yP16jWjt91bg=="/>
+        <POI type="wing8.ura.toxic.number.3" xpos="193.8799" ypos="269.8205" zpos="219.2059"
+             GUID="GlLhts++4kagqjD9TRohHA=="/>
+        <POI type="wing8.ura.toxic.number.4" xpos="183.0579" ypos="269.8561" zpos="235.2232"
+             GUID="uu516E4xakys2mWPIwc9NQ=="/>
+        <POI type="wing8.ura.toxic.number.5" xpos="165.2457" ypos="269.9166" zpos="253.1568"
+             GUID="Qp79YmFEJE+SwTIhjnai2A=="/>
+        <POI type="wing8.ura.toxic.number.6" xpos="158.0402" ypos="269.9379" zpos="280.9162"
+             GUID="jwEDDYslXkKQJjZIXnPDAg=="/>
+        <POI type="wing8.ura.toxic.number.7" xpos="178.8479" ypos="269.9049" zpos="202.3399"
+             GUID="+uN+AnsjdEyt3YWkAyCTeQ=="/>
+        <POI type="wing8.ura.toxic.number.8" xpos="161.7189" ypos="269.8876" zpos="228.7675"
+             GUID="+rvq6i+vSE2ElmBf6Zd+nA=="/>
+        <POI type="wing8.ura.toxic.number.9" xpos="145.9615" ypos="269.8477" zpos="259.3999"
+             GUID="6JX4Rx2Ry02qSEz4yy5nrA=="/>
+        <POI type="wing8.ura.toxic.number.10" xpos="162.6420" ypos="269.8477" zpos="200.3835"
+             GUID="EUsstDipAUSib1SMGZqubQ=="/>
+        <POI type="wing8.ura.toxic.number.11" xpos="145.5777" ypos="269.8477" zpos="228.9395"
+             GUID="c2WmLSF/Kkirv7Zgo4UmMg=="/>
+        <POI type="wing8.ura.toxic.number.12" xpos="122.4058" ypos="269.8477" zpos="249.6280"
+             GUID="3Uuc7QgIKUKne18diA8cTg=="/>
+        <POI type="wing8.ura.toxic.number.13" xpos="136.7561" ypos="269.8477" zpos="199.6934"
+             GUID="e4Sdv2oSYE2TuxIsQ9f23g=="/>
+        <POI type="wing8.ura.toxic.number.14" xpos="109.5080" ypos="269.8477" zpos="218.6314"
+             GUID="UTEbm2PGc02y00H++ffHTg=="/>
 
-        <POI type="wing8.ura.toxic.toxic_marker" iconFile="assets/markers/circle.png" xpos="183.05794919558244"
-             ypos="269.85610193395496" zpos="235.22317102636265" GUID="Cyjcp7TjP0mR/8ieDMgQBA=="/>
-        <POI type="wing8.ura.toxic.toxic_marker" iconFile="assets/markers/triangle.png" xpos="158.04024014655155"
-             ypos="269.9379077491548" zpos="280.9162332661715" GUID="+fYLiN5Of0ykqpCpLfkSdg=="/>
-        <POI type="wing8.ura.toxic.toxic_marker" iconFile="assets/markers/heart.png" xpos="161.7189221444383"
-             ypos="269.8876038700689" zpos="228.76750654367146" GUID="5y6C+hq3eEqkZflp/f+ptQ=="/>
-        <POI type="wing8.ura.toxic.toxic_marker" iconFile="assets/markers/swirl.png" xpos="145.9615296768677"
-             ypos="269.8476683447591" zpos="259.3998900021844" GUID="WCeZsiAPwUCkm8L/T/jSlg=="/>
-        <POI type="wing8.ura.toxic.toxic_marker" iconFile="assets/markers/star.png" xpos="162.64195367725125"
-             ypos="269.8476683447591" zpos="200.3835427694494" GUID="NI/V3riFZUKY/bpiXGWkbg=="/>
-        <POI type="wing8.ura.toxic.toxic_marker" iconFile="assets/markers/x.png" xpos="122.40583292428772"
-             ypos="269.8476683447591" zpos="249.62801422430982" GUID="nV6NekJ1t0Oqno1SikoaNA=="/>
-        <POI type="wing8.ura.toxic.toxic_marker" iconFile="assets/markers/square.png" xpos="136.7560686321917"
-             ypos="269.8476683447591" zpos="199.69342712648685" GUID="6/+UQjZSRUmOQ7YJD886Tw=="/>
+        <POI type="wing8.ura.toxic.marker.circle" xpos="183.0579" ypos="269.8561" zpos="235.2232"
+             GUID="Cyjcp7TjP0mR/8ieDMgQBA=="/>
+        <POI type="wing8.ura.toxic.marker.triangle" xpos="158.0402" ypos="269.9379" zpos="280.9162"
+             GUID="+fYLiN5Of0ykqpCpLfkSdg=="/>
+        <POI type="wing8.ura.toxic.marker.heart" xpos="161.7189" ypos="269.8876" zpos="228.7675"
+             GUID="5y6C+hq3eEqkZflp/f+ptQ=="/>
+        <POI type="wing8.ura.toxic.marker.swirl" xpos="145.9615" ypos="269.8477" zpos="259.3999"
+             GUID="WCeZsiAPwUCkm8L/T/jSlg=="/>
+        <POI type="wing8.ura.toxic.marker.star" xpos="162.6420" ypos="269.8477" zpos="200.3835"
+             GUID="NI/V3riFZUKY/bpiXGWkbg=="/>
+        <POI type="wing8.ura.toxic.marker.x" xpos="122.4058" ypos="269.8477" zpos="249.6280"
+             GUID="nV6NekJ1t0Oqno1SikoaNA=="/>
+        <POI type="wing8.ura.toxic.marker.square" xpos="136.7561" ypos="269.8477" zpos="199.6934"
+             GUID="6/+UQjZSRUmOQ7YJD886Tw=="/>
 
-        <POI type="wing8.ura.titan.titan_ground" xpos="176.8579" ypos="269.776" zpos="243.9916"
+        <POI type="wing8.ura.titan.ground" xpos="176.8579" ypos="269.776" zpos="243.9916" rotate-z="-64.27"
              GUID="MOdWuxsrEEehwGXw+zB/oA=="/>
-        <POI type="wing8.ura.titan.titan_ground" xpos="141.4742" ypos="270.18" zpos="210.4852"
+        <POI type="wing8.ura.titan.ground" xpos="141.4742" ypos="270.18" zpos="210.4852" rotate-z="134.74"
              GUID="ZA2tax3bdkWxFEhYSSI7yw=="/>
-        <POI type="wing8.ura.titan.titan_ground" xpos="171.5163" ypos="270.1656" zpos="218.8397"
+        <POI type="wing8.ura.titan.ground" xpos="171.5163" ypos="270.1656" zpos="218.8397" rotate-z="-134.74"
              GUID="tuSrL7GWRUCRJkfN5BakEw=="/>
-        <POI type="wing8.ura.titan.titan_ground" xpos="150.5023" ypos="270.1744" zpos="255.4477"
+        <POI type="wing8.ura.titan.ground" xpos="150.5023" ypos="270.1744" zpos="255.4477" rotate-z="14.87"
              GUID="QR0dzgAk10OIOQ1kCf8iYQ=="/>
-        <POI type="wing8.ura.titan.titan_ground" xpos="128.8435" ypos="269.8603" zpos="234.4463"
+        <POI type="wing8.ura.titan.ground" xpos="128.8435" ypos="269.8603" zpos="234.4463" rotate-z="89.13"
              GUID="kuNuMV1MZkKVHdkIKZ/xtg=="/>
 
-        <POI type="wing8.ura.titan.titan_radius" xpos="176.8579" ypos="269.776" zpos="243.9916"
+        <POI type="wing8.ura.titan.hb" xpos="176.8579" ypos="269.776" zpos="243.9916"
              GUID="Jcyw9WOfNUOh7tXF0BVTpQ=="/>
-        <POI type="wing8.ura.titan.titan_radius" xpos="141.4742" ypos="270.18" zpos="210.4852"
+        <POI type="wing8.ura.titan.hb" xpos="141.4742" ypos="270.18" zpos="210.4852"
              GUID="NaC1mXfdHEO4AdR3dbaYzw=="/>
-        <POI type="wing8.ura.titan.titan_radius" xpos="171.5163" ypos="270.1656" zpos="218.8397"
+        <POI type="wing8.ura.titan.hb" xpos="171.5163" ypos="270.1656" zpos="218.8397"
              GUID="N8jRXDF2EUKgx43NFKvP3A=="/>
-        <POI type="wing8.ura.titan.titan_radius" xpos="150.5023" ypos="270.1744" zpos="255.4477"
+        <POI type="wing8.ura.titan.hb" xpos="150.5023" ypos="270.1744" zpos="255.4477"
              GUID="PLOgdeitukCQ1szr1UzJBA=="/>
-        <POI type="wing8.ura.titan.titan_radius" xpos="128.8435" ypos="269.8603" zpos="234.4463"
+        <POI type="wing8.ura.titan.hb" xpos="128.8435" ypos="269.8603" zpos="234.4463"
              GUID="VpvXfDds0U2sxnX9u9GDfw=="/>
 
-        <POI type="wing8.ura.titan.titan_float" xpos="176.8579" ypos="269.776" zpos="243.9916"
+        <POI type="wing8.ura.titan.float" xpos="176.8579" ypos="269.776" zpos="243.9916"
              GUID="KgsSCrQiJUy0o/t7Ccc23A=="/>
-        <POI type="wing8.ura.titan.titan_float" xpos="141.4742" ypos="270.18" zpos="210.4852"
+        <POI type="wing8.ura.titan.float" xpos="141.4742" ypos="270.18" zpos="210.4852"
              GUID="SChaToIdKkiiru5IhEARKg=="/>
-        <POI type="wing8.ura.titan.titan_float" xpos="171.5163" ypos="270.1656" zpos="218.8397"
+        <POI type="wing8.ura.titan.float" xpos="171.5163" ypos="270.1656" zpos="218.8397"
              GUID="CgORuH4zGUmVhdgPz2LDlg=="/>
-        <POI type="wing8.ura.titan.titan_float" xpos="150.5023" ypos="270.1744" zpos="255.4477"
+        <POI type="wing8.ura.titan.float" xpos="150.5023" ypos="270.1744" zpos="255.4477"
              GUID="V3nmYlR/sESsYd8Th7B4TA=="/>
-        <POI type="wing8.ura.titan.titan_float" xpos="128.8435" ypos="269.8603" zpos="234.4463"
+        <POI type="wing8.ura.titan.float" xpos="128.8435" ypos="269.8603" zpos="234.4463"
              GUID="cinM4T6vAEm7s3wFLtdrbA=="/>
     </POIs>
 
