@@ -1,0 +1,90 @@
+<OverlayData>
+    <MarkerCategory name="wing8" DisplayName="Wing 8" MapID="1564" fadeNear="5000" fadeFar="5500">
+        <MarkerCategory name="decima" DisplayName="Decima">
+            <MarkerCategory name="center" DisplayName="Decima (Center)">
+                <MarkerCategory name="hb" DisplayName="Hitbox" iconFile="assets/radius/640.png"
+                                iconSize="9.375" color="#ee5252" rotate="0" heightoffset="0" mapvisibility="0"
+                                minimapvisibility="0"/>
+                <MarkerCategory name="float" DisplayName="Decima" iconFile="assets/skull/red.png"
+                                iconSize="0.75" alpha="0.6" heightoffset="0.5"/>
+            </MarkerCategory>
+            <MarkerCategory name="side" DisplayName="Decima (Side)" defaulttoggle="0">
+                <MarkerCategory name="hb" DisplayName="Hitbox" iconFile="assets/radius/640.png"
+                                iconSize="9.375" color="#52a0ee" rotate="0" heightoffset="0" mapvisibility="0"
+                                minimapvisibility="0" defaulttoggle="0"/>
+                <MarkerCategory name="ground" DisplayName="Decima (Side)" iconFile="assets/skull/blue.png"
+                                iconSize="0.75" alpha="0.6" heightoffset="0" rotate="0"/>
+            </MarkerCategory>
+            <MarkerCategory name="adds" DisplayName="Adds" mapvisibility="0">
+                <MarkerCategory name="hb" DisplayName="Hitbox" iconFile="assets/radius/640.png"
+                                iconSize="4.75" rotate="0" heightoffset="0" minimapvisibility="0"
+                                defaulttoggle="0"/>
+                <MarkerCategory name="float1" DisplayName="Split 1"
+                                alpha="0.6">
+                    <MarkerCategory name="number" DisplayName="Split 2 Adds" iconFile="assets/numbers/1.png"
+                                    iconSize="0.75" heightoffset="0.75"/>
+                    <MarkerCategory name="ranged" DisplayName="Ranged DPS" iconFile="assets/general/20px-Range.png"
+                                    iconSize="0.6" rotate="0" heightoffset="0" minimapvisibility="0"
+                                    defaulttoggle="0"/>
+                    <MarkerCategory name="melee" DisplayName="Melee DPS" iconFile="assets/general/20px-Damage.png"
+                                    iconSize="0.6" rotate="0" heightoffset="0" minimapvisibility="0"
+                                    defaulttoggle="0"/>
+                </MarkerCategory>
+                <MarkerCategory name="float2" DisplayName="Split 2" alpha="0.6">
+                    <MarkerCategory name="number" DisplayName="Split 2 Adds" iconFile="assets/numbers/2.png"
+                                    iconSize="0.75" heightoffset="0.75"/>
+                    <MarkerCategory name="ranged" DisplayName="Ranged DPS" iconFile="assets/general/20px-Range.png"
+                                    iconSize="0.6" rotate="0" heightoffset="0" minimapvisibility="0"
+                                    defaulttoggle="0"/>
+                    <MarkerCategory name="melee" DisplayName="Melee DPS" iconFile="assets/general/20px-Damage.png"
+                                    iconSize="0.6" rotate="0" heightoffset="0" minimapvisibility="0"
+                                    defaulttoggle="0"/>
+                </MarkerCategory>
+            </MarkerCategory>
+        </MarkerCategory>
+    </MarkerCategory>
+
+    <POIs>
+        <POI type="wing8.decima.center.hb" xpos="-260.1366" ypos="138.5162" zpos="334.1395"
+             GUID="PcoctUQi80mgAnFwOSmrQA=="/>
+        <POI type="wing8.decima.center.float" xpos="-260.1366" ypos="138.5162" zpos="334.1395"
+             GUID="eKzSYJEWNUGikvGJEIn7OQ=="/>
+
+        <POI type="wing8.decima.side.hb" xpos="-219.4965" ypos="138.9254" zpos="334.1394"
+             GUID="M9ynLlprA0yihf0aLYKlvw=="/>
+        <POI type="wing8.decima.side.ground" xpos="-219.4965" ypos="138.9254" zpos="334.1394" rotate-z="-90"
+             GUID="Hqf9xJfIEUSBVlsk3OahtQ=="/>
+
+        <POI type="wing8.decima.side.hb" xpos="-299.3917" ypos="138.5162" zpos="344.6578"
+             GUID="JrWLPAaiQE+/e+zJ2SzTiA=="/>
+        <POI type="wing8.decima.side.ground" xpos="-299.3917" ypos="138.5162" zpos="344.6578" rotate-z="75"
+             GUID="ioWqjvd290WUR70Dit/NNg=="/>
+
+        <POI type="wing8.decima.adds.hb" xpos="-280.4565" ypos="138.5162" zpos="369.3347"
+             GUID="qh/AZ6xRHEqsCNtkdPBRXQ=="/>
+        <POI type="wing8.decima.adds.float1.number" xpos="-280.4565" ypos="138.5162" zpos="369.3347"
+             GUID="qSv3KsJ1oUOu/Q00zIWy8A=="/>
+        <POI type="wing8.decima.adds.float1.melee" xpos="-280.4565" ypos="138.5162" zpos="369.3347" rotate-z="30"
+             GUID="sUF15HqxYUaWVuhboUwkYA=="/>
+        <POI type="wing8.decima.adds.hb" xpos="-280.4565" ypos="138.5162" zpos="298.9442"
+             GUID="Z2x1hOmepkWIo0FCOZMbzQ=="/>
+        <POI type="wing8.decima.adds.float1.number" xpos="-280.4565" ypos="138.5162" zpos="298.9442"
+             GUID="g55ArZepz0Sg455N1hqPQg=="/>
+        <POI type="wing8.decima.adds.float1.ranged" xpos="-280.4565" ypos="138.5162" zpos="298.9442" rotate-z="150"
+             GUID="ensTQw7EhEyvoX2atUfPyg=="/>
+
+        <POI type="wing8.decima.adds.hb" xpos="-231.3997" ypos="138.6781" zpos="362.8763"
+             GUID="lVbp60ZlN0G/IGtNCprZsw=="/>
+        <POI type="wing8.decima.adds.float2.number" xpos="-231.3997" ypos="138.6781" zpos="362.8763"
+             GUID="vWID6756hUSY7DTAhW4K5Q=="/>
+        <POI type="wing8.decima.adds.float2.melee" xpos="-231.3997" ypos="138.6781" zpos="362.8763" rotate-z="-45"
+             GUID="TkLAVh/09km+TGDCdC39hg=="/>
+        <POI type="wing8.decima.adds.hb" xpos="-249.6181" ypos="138.5188" zpos="294.8842"
+             GUID="LQCznhxhVU6S7L8IPs/Drg=="/>
+        <POI type="wing8.decima.adds.float2.number" xpos="-249.6181" ypos="138.5188" zpos="294.8842"
+             GUID="0OOv3lWRcU+d0LNWs+EjuA=="/>
+        <POI type="wing8.decima.adds.float2.ranged" xpos="-249.6181" ypos="138.5188" zpos="294.8842" rotate-z="-165"
+             GUID="5DWjB6ZF/0W4OVZLOwz7sw=="/>
+
+    </POIs>
+</OverlayData>
