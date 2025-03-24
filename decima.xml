@@ -13,14 +13,13 @@
                                 iconSize="9.375" color="#52a0ee" rotate="0" heightoffset="0" mapvisibility="0"
                                 minimapvisibility="0" defaulttoggle="0"/>
                 <MarkerCategory name="ground" DisplayName="Decima (Side)" iconFile="assets/skull/blue.png"
-                                iconSize="0.75" alpha="0.6" heightoffset="0" rotate="0"/>
+                                iconSize="0.75" alpha="0.75" heightoffset="0" rotate="0"/>
             </MarkerCategory>
             <MarkerCategory name="adds" DisplayName="Adds" mapvisibility="0">
                 <MarkerCategory name="hb" DisplayName="Hitbox" iconFile="assets/radius/640.png"
                                 iconSize="4.75" rotate="0" heightoffset="0" minimapvisibility="0"
                                 defaulttoggle="0"/>
-                <MarkerCategory name="float1" DisplayName="Split 1"
-                                alpha="0.6">
+                <MarkerCategory name="float1" DisplayName="Split 1" alpha="0.6">
                     <MarkerCategory name="number" DisplayName="Split 2 Adds" iconFile="assets/numbers/1.png"
                                     iconSize="0.75" heightoffset="0.75"/>
                     <MarkerCategory name="ranged" DisplayName="Ranged DPS" iconFile="assets/general/20px-Range.png"
