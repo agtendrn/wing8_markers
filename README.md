@@ -7,6 +7,17 @@ ___
 
 ## Current Features
 
+### Decima
+
+- Decima
+  - Hitbox
+  - Center
+  - Side (During Split Phase)
+- Adds (Both Phases)
+  - Hitbox
+  - Split Phase Number
+  - Melee/Ranged indicator
+
 ### Ura
 
 - Toxic Geyser Locations
